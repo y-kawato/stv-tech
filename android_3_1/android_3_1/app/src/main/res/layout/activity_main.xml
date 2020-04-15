@@ -77,6 +77,13 @@
         android:layout_marginTop="5dp"
         android:entries="@array/sp_currylist" />
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:entries="@array/lv_cocktalillist" />
+
     <Button
         android:id="@+id/btSave"
         android:layout_width="wrap_content"
